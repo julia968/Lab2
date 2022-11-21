@@ -6,11 +6,11 @@ public class Kartana extends Pokemon {
         Pokemon p3 = new Pokemon("Kartana", 1);
         setType(Type.GRASS, Type.STEEL);
         setStats(59, 181, 131, 59, 31, 109);
-        IronDefense IronDefense = new IronDefense(0, 0);
+        IronDefense ironDefense = new IronDefense(0, 0);
         MegaDrain MegaDrain = new MegaDrain(40, 100);
         BrutalSwing BrutalSwing = new BrutalSwing(60, 100);
         FlameCharge FlameCharge = new FlameCharge(50, 100);
-        setMove(IronDefense, MegaDrain, BrutalSwing, FlameCharge);
+        setMove(ironDefense, MegaDrain, BrutalSwing, FlameCharge);
     }
 
 }
