@@ -1,7 +1,7 @@
 import ru.ifmo.se.pokemon.*;
 
-public class Steel extends StatusMove {
-    public Steel(double pow, double acc) {
+public class IronDefense extends StatusMove {
+    public IronDefense(double pow, double acc) {
 
         super(Type.STEEL, pow, acc);
     }
